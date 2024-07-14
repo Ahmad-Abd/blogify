@@ -1,8 +1,9 @@
 # Blogify
-* An ASP.NET Core Razor Pages basic blog application allows users to create, read, update, and delete (CRUD) blog posts.
+* **Overview**
+  * Blogify is an ASP.NET Core Razor Pages basic blog application allows users to create, read, update, and delete (CRUD) blog posts.
 
-**NOTES :** 
-  * **THIS JUST AN TRAINING PROJECT.**
+* **NOTES :** 
+  * **THIS JUST A TRAINING PROJECT.**
   * Sign ✅ means that feature is fully implemented.
   * Sign ⛔ means that feature is canceled or there are no future plans to implement it.
   * Sign ➖ means that feature is pending.
@@ -64,7 +65,6 @@
 ## Project Structure
 ### Blogify.Contract
 * Contains all interfaces and data transfer objects DTOs.
-* _ex. Services Interfaces.
 * Should only depends on *Blogify.Shared*
 
 ### Blogify.Domain
