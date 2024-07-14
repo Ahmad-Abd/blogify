@@ -80,9 +80,11 @@
 * Should be independent project.
 
 ### Blogify.Test
-* Contains all unit tests
+* Contains all unit test cases.
 
-### Blogify.
+### Blogify.WebApp
+* Contains the _Razor Pages_.
+* **This Is The Startup Project**
 
 
 ## Tech Stack
