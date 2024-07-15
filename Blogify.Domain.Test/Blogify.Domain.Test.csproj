@@ -3,20 +3,14 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
+        <IsPackable>false</IsPackable>
+        <RootNamespace>Blogify.Test</RootNamespace>
         <Nullable>enable</Nullable>
-        <RootNamespace>Blogify</RootNamespace>
     </PropertyGroup>
 
-
     <ItemGroup>
-      <ProjectReference Include="..\Blogify.Shared\Blogify.Shared.csproj" />
+      <ProjectReference Include="..\Blogify.Domain\Blogify.Domain.csproj" />
     </ItemGroup>
 
-
-
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.7" />
-    </ItemGroup>
 
 </Project>
